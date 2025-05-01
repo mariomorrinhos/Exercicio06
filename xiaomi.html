@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>::. XIAOMI - REDMI .::</title>
+    <link rel="icon" href="imagens/ico/xiaomi.ico" type="image/x-icon">
+    <style>
+        body {
+                margin: 0px;
+                font-family: Arial; /* Minha fonte escolhida */
+                background-image: url('imagens/background/fundoindex2.jpg'); /* Caminho da imagem */
+                background-size: cover; /* Faz a imagem cobrir toda a tela */
+                background-position: center; /* Centraliza a imagem */
+                background-attachment: fixed; /* Deixa a imagem fixa enquanto rola a página */
+                background-repeat: no-repeat; /* Evita que a imagem se repita */
+        }
+
+        header {
+            text-align: center; /*/ Alinhamento do título <h1> /*/
+            padding: 20px; /*/ Cria espaço interno de 20px em todos os lados /*/
+            background-color: #DCDCDC; /*/Cor apenas onde está o cabeçalho - o título <h1>LOJA ONLINE</h1> /*/
+        }
+
+        header h1 {
+            color: #8B0000; /*/A cor do <h1>/*/
+            font-size: 80px; /*/ Tamanho da fonte <h1>/*/
+            font-family: Arial Black; /*/ Escolhi essa fonte para marcar bem o título da página /*/
+            margin: 0;
+        }
+
+        h2 {
+            color: #000000;
+            font-size: 25px;
+            font-family: Arial Black;
+            margin: 20;
+            text-align: center;
+        }
+
+        h4 {
+            color: #000000;
+            font-size: 25px;
+            font-family: Arial Black;
+            margin: 20;
+            text-align: center;
+        }
+
+        /*/ Criei um menu superior apenas para estilizar melhor o site /*/
+        nav {
+            background-color: #FF4000; /*/ cor do menu superior /*/
+            display: flex; /*/ Cria o menu superior em toda a extensão. /*/
+            justify-content: center; /*/ Aqui está o alinhamento dos menus; se alinhado à esquerda, centralizado ou à direita. Por estilo, optei elo alinhamento centralizado /*/
+            flex-wrap: wrap;
+            
+        }
+
+        nav a {
+            color: white; /*/ Esta é a cor originária do menu /*/
+            text-decoration: none; /*/ Esse comando é para que não tenha nenhuma linha (sublinhado) nas palavras do menu pois ausente, o sublinhado é padrão /*/
+            padding: 15px 50px; /*/ Aqui é a expessura do menu (fundo) e o espaçamento entre um menu e o outro /*/
+            font-size: 20px; /*/ Fonte do menu /*/
+            font-family: Arial; /*/ Uma fonte diferente para o menu /*/
+            transition: color 0.9s; /*/ Aqui é a transição das cores do menu, ao passar o mouse /*/
+            font-weight: bold; /*/Deixa a Fonte do menu em negrito/*/
+        }
+
+        nav a:hover {
+            color: #800000; /*/Ao passar o mouse no menu, ele muda para esta cor /*/
+        }
+
+        main {
+            /*/ Aqui são as configurações onde vou colocar as fotos dos produtos em destaque /*/
+            padding: 25px;
+            display: flex; /*/ Para que cada um fique um ao lado do outro /*/
+            flex-wrap: wrap; /*/ Aqui coloquei para tornar o site responsivo, ou seja, no celular o bloco poderá ter uma quebra de linha /*/
+            justify-content: center;
+            gap: 50px; /*/ Espaço entre os produtos /*/
+        }
+
+        .produto {
+            border: 3px solid #FF4000;
+            padding: 10px;
+            border-radius: 8px;
+            max-width: 300px;
+            text-align: center;
+        }
+
+        .produto img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #6a1b9a;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 40px;
+        }
+
+        p {
+            padding: 25px;
+            text-indent: 100px;
+            
+        }
+
+        .caixa-azul {
+            background-color: #FF4000; /*/ Caixa onde está o h4 /*/
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .caixa-azul h3 {
+            color: white;
+            margin: 0;
+        }
+
+        .caixa-azul h4 {
+            color: white;
+            margin: 0;
+        }
+
+        h5{
+            text-indent: 0px;
+            text-align: center;
+            font-size: 18px;
+            font-family: Arial;
+            color: #800000;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>LOJA ONLINE</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a> <!--NEste caso optei index.html porque as outras páginas estão na mesma pasta, mas poderia usar apenas # -->
+        <a href="apple.html">APPLE</a>
+        <a href="samsung.html">SAMSUNG</a>
+        <a href="xiaomi.html">XIAOMI</a>
+    </nav>
+
+    <main>
+        <section id="celular1" class="produto">
+            <h2>Celular 01</h2> 
+            <a href="xiami15.html"><img src="imagens/xiaomi15.webp" alt="Xiami 15" title="Xiaomi Redmi 15"></a>
+            <h5>Modelo incrível com alta performance e ótima câmera.</h5>
+        </section>
+
+        <section id="celular2" class="produto">
+            <h2>Celular 02</h2>
+            <a href="xiami15pro.html"><img src="imagens/xiaomi15pro.avif" alt="Xiaomi 15 Pro" title="Xiaomi Redmi 15 Pro"></a>
+            <h5>Design moderno, bateria de longa duração e preço acessível.</h5>
+        </section>
+
+        <section id="celular3" class="produto">
+            <h2>Celular 03</h2>
+            <a href="xiami15ultra.html"><img src="imagens/xiaomi15ultra.jpeg" alt="Xiaomi 15 Ultra" title="Xiaomi Redmi 15 Ultra"></a>
+            <h5>Ideal para quem busca velocidade e tecnologia de ponta.</h5>
+        </section>
+    </main>
+                <div class="caixa-azul">
+                <h4>NÃO SABE QUAL ESCOLHER?</h4>
+            </div>
+                    <p title="sas"><b>Se você não sabe qual aparelho escolher, nós podemos te dar uma ajudinha.Aqui você faz um comparativo entre as principais características de cada aparelho, comparando-os. Acesse agora mesmo <a href="https://www.tudocelular.com/compare/9845-9846-9755.html" target="_blank" style="color: red;">clicando aqui</a>.</p></b>
+    <footer>
+        Desenvolvido por M@rio Henrique &copy; 2025.
+        <br> Atividade da Aula nº 06 - Professor Fernando
+        <br> IFGoiano - Campus Morrinhos
+    </footer>
+
+</body>
+</html>
